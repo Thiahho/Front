@@ -1,0 +1,528 @@
+[
+  {
+    "id": 1,
+    "title": "Samsung A05 DS",
+    "description": "Samsung A05 DS",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "128GB",
+        "ram": "4GB",
+        "price": 171120
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black",
+    "sku": 1000000015
+  },
+  {
+    "id": 2,
+    "title": "Samsung A06 DS",
+    "description": "Samsung A06 DS",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "64GB",
+        "ram": "4GB",
+        "price": 171120
+      },
+      {
+        "storage": "128GB",
+        "ram": "4GB",
+        "price": 189999
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black",
+    "sku": 1000000016
+  },
+  {
+    "id": 3,
+    "title": "Samsung S24 FE 5G DS",
+    "description": "Samsung S24 FE 5G DS",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "8GB",
+        "price": 940360
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Graph",
+    "sku": 1000000018
+  },
+  {
+    "id": 4,
+    "title": "Samsung S24 5G DS",
+    "description": "Samsung S24 5G DS",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "8GB",
+        "price": 1027120
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Gray",
+    "sku": 1000000019
+  },
+  {
+    "id": 5,
+    "title": "Samsung S24 Plus 5G DS",
+    "description": "Samsung S24 Plus 5G DS",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "12GB",
+        "price": 1140800
+      },
+      {
+        "storage": "512GB",
+        "ram": "12GB",
+        "price": 1299999
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black/Gray/Violet",
+    "sku": 1000000020
+  },
+  {
+    "id": 6,
+    "title": "Motorola E14",
+    "description": "Motorola E14",
+    "brand": "Motorola",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "64GB",
+        "ram": "2GB",
+        "price": 121220
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Gris acero",
+    "sku": 1000000021
+  },
+  {
+    "id": 7,
+    "title": "Motorola G24",
+    "description": "Motorola G24",
+    "brand": "Motorola",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "128GB",
+        "ram": "4GB",
+        "price": 168268
+      },
+      {
+        "storage": "128GB",
+        "ram": "8GB",
+        "price": 189999
+      },
+      {
+        "storage": "256GB",
+        "ram": "4GB",
+        "price": 199999
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black/Gris acero",
+    "sku": 1000000022
+  },
+  {
+    "id": 8,
+    "title": "Motorola G54 5G DS",
+    "description": "Motorola G54 5G DS",
+    "brand": "Motorola",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "8GB",
+        "price": 271940
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Green",
+    "sku": 1000000023
+  },
+  {
+    "id": 9,
+    "title": "Motorola G85 5G DS",
+    "description": "Motorola G85 5G DS",
+    "brand": "Motorola",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "8GB",
+        "price": 370760
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Azul/Gris/Verde",
+    "sku": 1000000024
+  },
+  {
+    "id": 10,
+    "title": "Redmi Pad SE 8.7",
+    "description": "Redmi Pad SE 8.7",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "128GB",
+        "ram": "4GB",
+        "price": 256680
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Green/Gray",
+    "sku": 1000000025
+  },
+  {
+    "id": 11,
+    "title": "Redmi A3",
+    "description": "Redmi A3",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "64GB",
+        "ram": "3GB",
+        "price": 128340
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black/Green",
+    "sku": 1000000026
+  },
+  {
+    "id": 12,
+    "title": "Redmi 14C",
+    "description": "Redmi 14C",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "4GB",
+        "price": 193936
+      },
+      {
+        "storage": "256GB",
+        "ram": "8GB",
+        "price": 219999
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black/Blue",
+    "sku": 1000000027
+  },
+
+  {
+    "id": 13,
+    "title": "Note 14 Pro",
+    "description": "Note 14 Pro",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "8GB",
+        "price": 484440
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black/Green/Purple",
+    "sku": 1000000026
+  },
+  {
+    "id": 14,
+    "title": "Poco C65",
+    "description": "Poco C65",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "128GB",
+        "ram": "6GB",
+        "price": 188232
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black/Blue",
+    "sku": 1000000026
+  },
+  {
+    "id": 15,
+    "title": "Poco C75",
+    "description": "Poco C75",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "8GB",
+        "price": 209622
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black",
+    "sku": 1000000026
+  },
+  {
+    "id": 16,
+    "title": "Poco M6 Pro",
+    "description": "Poco M6 Pro",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "8GB",
+        "price": 299460
+      },
+      {
+        "storage": "512GB",
+        "ram": "12GB",
+        "price": 370760
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black/Green/Purple",
+    "sku": 1000000026
+  },
+  {
+    "id": 17,
+    "title": "Poco X6 Pro",
+    "description": "Poco X6 Pro",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "512GB",
+        "ram": "12GB",
+        "price": 498200
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black/Green/Purple",
+    "sku": 1000000026
+  },
+  {
+    "id": 18,
+    "title": "Poco X7 Pro",
+    "description": "Poco X7 Pro",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "12GB",
+        "price": 562270
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black/Green/Purple",
+    "sku": 1000000026
+  },
+  {
+    "id": 19,
+    "title": "Poco 14T",
+    "description": "Poco 14T",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "512GB",
+        "ram": "12GB",
+        "price": 719730
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black/Green/Purple",
+    "sku": 1000000026
+  },
+  {
+    "id": 20,
+    "title": "iPhone 13",
+    "description": "iPhone 13",
+    "brand": "Apple",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "128GB",
+        "ram": "4GB",
+        "price": 640
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "USD",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Various Colors",
+    "sku": 2000000001
+  },
+  {
+    "id": 21,
+    "title": "iPhone 15",
+    "description": "iPhone 15",
+    "brand": "Apple",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "128GB",
+        "ram": "4GB",
+        "price": 840
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "USD",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Various Colors",
+    "sku": 2000000002
+  },
+  {
+    "id": 22,
+    "title": "iPhone 16",
+    "description": "iPhone 16",
+    "brand": "Apple",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "128GB",
+        "ram": "4GB",
+        "price": 940
+      },
+      {
+        "storage": "256GB",
+        "ram": "4GB",
+        "price": 1060
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "USD",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Various Colors",
+    "sku": 2000000003
+  },
+  {
+    "id": 23,
+    "title": "iPhone 16 Pro",
+    "description": "iPhone 16 Pro",
+    "brand": "Apple",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "128GB",
+        "ram": "6GB",
+        "price": 1140
+      },
+      {
+        "storage": "256GB",
+        "ram": "6GB",
+        "price": 1240
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "USD",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Various Colors",
+    "sku": 2000000004
+  },
+  {
+    "id": 24,
+    "title": "iPhone 16 Pro Max",
+    "description": "iPhone 16 Pro Max",
+    "brand": "Apple",
+    "category": "smartphones",
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "6GB",
+        "price": 1340
+      },
+      {
+        "storage": "512GB",
+        "ram": "6GB",
+        "price": 1520
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "USD",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Various Colors",
+    "sku": 2000000005
+  }
+]

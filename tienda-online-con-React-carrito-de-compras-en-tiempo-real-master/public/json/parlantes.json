@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "title": "Parlante Realme",
+    "description": "Realme Pocket Bluetooth",
+    "brand": "Realme",
+    "category": "parlante",
+    "variants": [
+      {
+        "model": "Pocket",
+        "price": 25000
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black",
+    "sku": 3000000001
+  },
+  {
+    "id": 2,
+    "title": "Parlante Xiaomi",
+    "description": "Parlante Xiaomi Mi Portable",
+    "brand": "Xiaomi",
+    "category": "parlante",
+    "variants": [
+      {
+        "model": "Mi Portable",
+        "price": 30000
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black",
+    "sku": 3000000002
+  },
+  {
+    "id": 3,
+    "title": "JBL Flip 6",
+    "description": "JBL Flip 6 Bluetooth Waterproof",
+    "brand": "JBL",
+    "category": "parlante",
+    "variants": [
+      {
+        "model": "Flip 6",
+        "price": 45000
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black/Blue/Red",
+    "sku": 3000000003
+  },
+  {
+    "id": 4,
+    "title": "JBL Charge 5",
+    "description": "JBL Charge 5 Bluetooth Waterproof",
+    "brand": "JBL",
+    "category": "parlante",
+    "variants": [
+      {
+        "model": "Charge 5",
+        "price": 55000
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black/Blue/Red",
+    "sku": 3000000004
+  },
+  {
+    "id": 5,
+    "title": "Sony SRS-XB13",
+    "description": "Sony SRS-XB13 Extra Bass Bluetooth",
+    "brand": "Sony",
+    "category": "parlante",
+    "variants": [
+      {
+        "model": "SRS-XB13",
+        "price": 35000
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black/Blue/Cream",
+    "sku": 3000000005
+  }
+]

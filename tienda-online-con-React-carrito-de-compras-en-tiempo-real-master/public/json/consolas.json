@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "title": "PlayStation®5",
+    "description": "PlayStation®5 Slim Digital",
+    "brand": "Sony",
+    "category": "consola",
+    "variants": [
+      {
+        "storage": "1TB",
+        "price": 650
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "USD",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "White",
+    "sku": 2000000001
+  },
+  {
+    "id": 2,
+    "title": "PlayStation®5",
+    "description": "PlayStation®5 Slim con Lectora",
+    "brand": "Sony",
+    "category": "consola",
+    "variants": [
+      {
+        "storage": "1TB",
+        "price": 750
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "USD",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black",
+    "sku": 2000000002
+  },
+  {
+    "id": 3,
+    "title": "Xbox Series X",
+    "description": "Xbox Series X 1TB",
+    "brand": "Microsoft",
+    "category": "consola",
+    "variants": [
+      {
+        "storage": "1TB",
+        "price": 599
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "USD",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black",
+    "sku": 2000000003
+  },
+  {
+    "id": 4,
+    "title": "Xbox Series S",
+    "description": "Xbox Series S 512GB",
+    "brand": "Microsoft",
+    "category": "consola",
+    "variants": [
+      {
+        "storage": "512GB",
+        "price": 299
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "USD",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "White",
+    "sku": 2000000004
+  },
+  {
+    "id": 5,
+    "title": "Mando Xbox",
+    "description": "USB C / INALAMBRICO",
+    "brand": "Microsoft",
+    "category": "consola",
+    "variants": [
+      {
+        "storage": "USB C",
+        "price": 90000
+      }
+    ],
+    "currencyFormat": "$",
+    "currencyId": "ARS",
+    "installments": 12,
+    "isFreeShipping": true,
+    "style": "Black",
+    "sku": 2000000004
+  }
+]
