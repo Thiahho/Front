@@ -13,7 +13,10 @@ namespace BackendTienda.DTOs
         public string CurrencyFormat { get; set; } = "S/";
         public string CurrencyId { get; set; } = "PEN";
         public int Installments { get; set; }
+        public int Stock { get; set; }
         public List<ProductVariantDTO> Variants { get; set; } = new();
+        public string? Warranty { get; set; }
+        public string? Condition { get; set; }
     }
 
     public class CreateProductoDto
@@ -24,7 +27,10 @@ namespace BackendTienda.DTOs
         public string? Brand { get; set; }
         public string? Category { get; set; }
         public bool IsFreeShipping { get; set; }
+        public int Stock { get; set; }
         public string? Style { get; set; }
+        public string? Warranty { get; set; }
+        public string? Condition { get; set; }
     }
 
     public class ProductoFilterDto
@@ -32,25 +38,30 @@ namespace BackendTienda.DTOs
         public string? Brand { get; set; }
         public string? Category { get; set; }
         public bool? IsFreeShipping { get; set; }
+        public string? Condition { get; set; }
+
     }
 
     public class UpdateProductoDto
     {
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public string ImageUrl { get; set; }
-        public string Brand { get; set; }
-        public string Category { get; set; }
+        public string? Title { get; set; }
+        public string? Description { get; set; }
+        public string? ImageUrl { get; set; }
+        public string? Brand { get; set; }
+        public string? Category { get; set; }
         public bool IsFreeShipping { get; set; }
-        public string Style { get; set; }
-        public List<UpdateVariantDto> Variants { get; set; }
+        public int Stock { get; set; }
+        public string? Style { get; set; }
+        public List<UpdateVariantDto>? Variants { get; set; }
+        public string? Warranty { get; set; }
+        public string? Condition { get; set; }
     }
 
     public class UpdateVariantDto
     {
         public int Id { get; set; }
-        public string Storage { get; set; }
-        public string Ram { get; set; }
+        public string? Storage { get; set; }
+        public string? Ram { get; set; }
         public decimal Price { get; set; }
     }
 }

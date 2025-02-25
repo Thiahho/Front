@@ -81,6 +81,9 @@ namespace BackendTienda.Repositorios
             if (filterDto.IsFreeShipping.HasValue)
                 query = query.Where(p => p.IsFreeShipping == filterDto.IsFreeShipping.Value);
 
+            if (!string.IsNullOrWhiteSpace(filterDto.Condition))
+                query = query.Where(p => p.Condition == filterDto.Condition);
+
             return await query.ToListAsync();
         }
     }

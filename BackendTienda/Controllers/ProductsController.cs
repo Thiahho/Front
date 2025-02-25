@@ -46,19 +46,19 @@ namespace BackendTienda.Controllers
             return Ok(product);
         }
 
-        [HttpPost]
-        public async Task<ActionResult<ProductoDTO>> CreateProduct(CreateProductoDto createDto)
-        {
-            var product = await _productoService.CreateProductAsync(createDto);
-            return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, product);
-        }
+        // [HttpPost]
+        // public async Task<ActionResult<ProductoDTO>> CreateProduct(CreateProductoDto createDto)
+        // {
+        //     var product = await _productoService.CreateProductAsync(createDto);
+        //     return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, product);
+        // }
 
-        [HttpPost("{productId}/variants")]
-        public async Task<ActionResult<ProductVariantDTO>> AddVariant(int productId, CreateVariantDto variantDto)
-        {
-            var variant = await _productoService.AddVariantAsync(productId, variantDto);
-            return CreatedAtAction(nameof(GetProduct), new { id = productId }, variant);
-        }
+        // [HttpPost("{productId}/variants")]
+        // public async Task<ActionResult<ProductVariantDTO>> AddVariant(int productId, CreateVariantDto variantDto)
+        // {
+        //     var variant = await _productoService.AddVariantAsync(productId, variantDto);
+        //     return CreatedAtAction(nameof(GetProduct), new { id = productId }, variant);
+        // }
 
         [HttpGet("{productId}/variants")]
         public async Task<ActionResult<IEnumerable<ProductVariantDTO>>> GetVariants(int productId)

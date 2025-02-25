@@ -65,6 +65,11 @@ namespace BackendTienda.Data
                 entity.Property(e => e.Installments)
                     .HasColumnName("installments")
                     .HasDefaultValue(1);
+                    
+                entity.Property(e => e.Warranty)
+                    .HasMaxLength(100)
+                    .HasColumnName("warranty")
+                    .IsRequired(false);
             });
 
             modelBuilder.Entity<ProductVariant>(entity =>

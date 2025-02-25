@@ -2,66 +2,82 @@
 using Microsoft.EntityFrameworkCore;
 using BackendTienda.Interfaces;
 using BackendTienda.Repositorios;
-using Microsoft.Extensions.FileProviders;
 using BackendTienda.Services;
+using BackendTienda.Middleware;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Servicios
+// CORS configuration
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", policy =>
-        policy.AllowAnyOrigin()
+    options.AddPolicy("DefaultPolicy", policy =>
+    {
+        policy.WithOrigins("http://localhost:5173") // URL de tu aplicación React
               .AllowAnyMethod()
-              .AllowAnyHeader());
+              .AllowAnyHeader()
+              .WithExposedHeaders("Content-Disposition");
+    });
 });
 
+// Add services
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new() { Title = "Tienda API", Version = "v1" });
+    
+    // Make XML comments optional
+    var xmlFile = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+    if (File.Exists(xmlPath))
+    {
+        c.IncludeXmlComments(xmlPath);
+    }
+});
 
+// Database configuration
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
+// Register services
 builder.Services.AddScoped<IProductoRepositorio, ProductoRepositorio>();
 builder.Services.AddScoped<IProductoService, ProductoService>();
 builder.Services.AddAutoMapper(typeof(Program));
 
+// Add custom error handling
+builder.Services.AddTransient<GlobalExceptionHandlingMiddleware>();
+
 var app = builder.Build();
 
-// Middleware pipeline
+// Configure middleware pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-// Orden correcto de middleware
-app.UseRouting();
+app.UseMiddleware<GlobalExceptionHandlingMiddleware>();
 
-// Configuración de archivos estáticos
-app.UseStaticFiles(); // Para wwwroot
+// Static files configuration
+app.UseStaticFiles(); // For wwwroot folder
+
+// Ensure Images directory exists
+var imagesPath = Path.Combine(builder.Environment.ContentRootPath, "Images");
+Directory.CreateDirectory(imagesPath); // Esta línea creará el directorio si no existe
+
 app.UseStaticFiles(new StaticFileOptions
 {
-    FileProvider = new PhysicalFileProvider(
-        Path.Combine(Directory.GetCurrentDirectory(), "..", "server", "public")),
-    RequestPath = "",  // Cambiar a ruta vacía
-    OnPrepareResponse = ctx =>
-    {
-        ctx.Context.Response.Headers.Append("Access-Control-Allow-Origin", "*");
-        // Log para debugging
-        var requestPath = ctx.Context.Request.Path;
-        var physicalPath = ctx.File.PhysicalPath;
-        Console.WriteLine($"Request Path: {requestPath}");
-        Console.WriteLine($"Physical Path: {physicalPath}");
-    }
+    FileProvider = new PhysicalFileProvider(imagesPath),
+    RequestPath = "/images"
 });
 
-app.UseCors("AllowAll");
+app.UseRouting();
+app.UseCors("DefaultPolicy");
 app.UseAuthorization();
 
-app.MapControllers()
-   .RequireCors("AllowAll");
+app.MapControllers();
 
 app.Run();

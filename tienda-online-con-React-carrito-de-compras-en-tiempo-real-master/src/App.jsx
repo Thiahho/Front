@@ -16,7 +16,13 @@ import SizeFilterSkeleton from "./components/SizeFilterSkeleton";
 import CategoryProducts from "./components/CategoryProducts";
 
 const App = () => {
-  const { data: products, loading, error } = useFetch("/products"); // Ahora usa el endpoint de la API
+  const { data: products, loading, error } = useFetch("/products"); // Ya no necesitamos /api/ aquí
+
+  useEffect(() => {
+    console.log("Products data:", products);
+    console.log("Loading state:", loading);
+    console.log("Error state:", error);
+  }, [products, loading, error]);
 
   const { cart } = useCartStore();
   const { getTotalProducts } = useTotalStore();

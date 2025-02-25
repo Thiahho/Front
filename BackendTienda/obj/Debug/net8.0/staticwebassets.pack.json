@@ -13,6 +13,150 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\cap.png",
+      "PackagePath": "staticwebassets\\images\\cap.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\cap2.png",
+      "PackagePath": "staticwebassets\\images\\cap2.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\cap3.png",
+      "PackagePath": "staticwebassets\\images\\cap3.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\consolas\\1.png",
+      "PackagePath": "staticwebassets\\images\\consolas\\1.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\consolas\\2.png",
+      "PackagePath": "staticwebassets\\images\\consolas\\2.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\consolas\\3.png",
+      "PackagePath": "staticwebassets\\images\\consolas\\3.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\consolas\\4.png",
+      "PackagePath": "staticwebassets\\images\\consolas\\4.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\consolas\\5.png",
+      "PackagePath": "staticwebassets\\images\\consolas\\5.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\consolas\\6.png",
+      "PackagePath": "staticwebassets\\images\\consolas\\6.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\consolas\\9.png",
+      "PackagePath": "staticwebassets\\images\\consolas\\9.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\iphone\\1.png",
+      "PackagePath": "staticwebassets\\images\\iphone\\1.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\iphone\\2.png",
+      "PackagePath": "staticwebassets\\images\\iphone\\2.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\iphone\\3.png",
+      "PackagePath": "staticwebassets\\images\\iphone\\3.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\iphone\\4.png",
+      "PackagePath": "staticwebassets\\images\\iphone\\4.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\iphone\\5.png",
+      "PackagePath": "staticwebassets\\images\\iphone\\5.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\motorola\\1.png",
+      "PackagePath": "staticwebassets\\images\\motorola\\1.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\motorola\\2.png",
+      "PackagePath": "staticwebassets\\images\\motorola\\2.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\motorola\\3.png",
+      "PackagePath": "staticwebassets\\images\\motorola\\3.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\motorola\\4.png",
+      "PackagePath": "staticwebassets\\images\\motorola\\4.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\parlantes\\1.png",
+      "PackagePath": "staticwebassets\\images\\parlantes\\1.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\parlantes\\2.png",
+      "PackagePath": "staticwebassets\\images\\parlantes\\2.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\placeholder.png",
+      "PackagePath": "staticwebassets\\images\\placeholder.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\samsung\\1.png",
+      "PackagePath": "staticwebassets\\images\\samsung\\1.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\samsung\\2.png",
+      "PackagePath": "staticwebassets\\images\\samsung\\2.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\samsung\\3.png",
+      "PackagePath": "staticwebassets\\images\\samsung\\3.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\samsung\\4.png",
+      "PackagePath": "staticwebassets\\images\\samsung\\4.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\samsung\\5.png",
+      "PackagePath": "staticwebassets\\images\\samsung\\5.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\1.png",
+      "PackagePath": "staticwebassets\\images\\xiaomi\\1.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\2.png",
+      "PackagePath": "staticwebassets\\images\\xiaomi\\2.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\3.png",
+      "PackagePath": "staticwebassets\\images\\xiaomi\\3.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\4.png",
+      "PackagePath": "staticwebassets\\images\\xiaomi\\4.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\5.png",
+      "PackagePath": "staticwebassets\\images\\xiaomi\\5.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\6.png",
+      "PackagePath": "staticwebassets\\images\\xiaomi\\6.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\7.png",
+      "PackagePath": "staticwebassets\\images\\xiaomi\\7.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\8.png",
+      "PackagePath": "staticwebassets\\images\\xiaomi\\8.png"
+    },
+    {
+      "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\9.png",
+      "PackagePath": "staticwebassets\\images\\xiaomi\\9.png"
+    },
+    {
       "Id": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -9,7 +9,9 @@ namespace BackendTienda.Mappings
         public AutoMapperProfile()
         {
             // Mapeo de Product <-> ProductoDTO
-            CreateMap<Product, ProductoDTO>();
+            CreateMap<Product, ProductoDTO>()
+                .ForMember(dest => dest.Stock, opt => opt.MapFrom(src => src.Stock))
+                .ForMember(dest => dest.Warranty, opt => opt.MapFrom(src => src.Warranty));
             CreateMap<ProductoDTO, Product>();
 
             // Mapeo de ProductVariant <-> ProductVariantDTO

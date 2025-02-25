@@ -11,34 +11,38 @@ const useFetch = (endpoint) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const fullUrl = `${API_URL}${endpoint}`;
-        console.log("API_URL:", API_URL);
-        console.log("Endpoint:", endpoint);
-        console.log("Full URL:", fullUrl);
+        const fullUrl = `${API_URL}${endpoint}`; // API_URL ya incluye /api
+        console.log("Full URL being called:", fullUrl); // Para debugging
 
-        const response = await axios.get(fullUrl);
-        console.log("Response:", response);
+        const config = {
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+        };
+
+        console.log("Making request with config:", config);
+        const response = await axios.get(fullUrl, config);
+        console.log("Response received:", response);
+
+        if (response.status !== 200) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
 
         if (response.data) {
-          console.log("Received data:", response.data);
+          console.log("Setting data:", response.data);
           setData(response.data);
         } else {
           throw new Error("No data received from API");
         }
       } catch (err) {
+        console.error("Full error object:", err);
         console.error("Error details:", {
           message: err.message,
           response: err.response?.data,
           status: err.response?.status,
-          headers: err.response?.headers,
-          config: err.config,
         });
-
-        setError(
-          err.response?.data?.message ||
-            err.message ||
-            "Error connecting to API"
-        );
+        setError(err.message || "Error connecting to API");
       } finally {
         setLoading(false);
       }
@@ -47,16 +51,7 @@ const useFetch = (endpoint) => {
     fetchData();
   }, [endpoint]);
 
-  return {
-    data,
-    loading,
-    error,
-    refetch: () => {
-      setLoading(true);
-      setError(null);
-      fetchData();
-    },
-  };
+  return { data, loading, error };
 };
 
 export default useFetch;
