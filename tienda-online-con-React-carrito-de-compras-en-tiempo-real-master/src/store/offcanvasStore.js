@@ -1,11 +1,23 @@
 import { create } from "zustand";
 
-const useOffcanvasStore = create((set) => ({
+const useOffcanvasStore = create((set, get) => ({
   isVisible: false,
-  toggleOffcanvas: () =>
-    set((state) => ({
-      isVisible: !state.isVisible,
-    })),
+  toggleOffcanvas: () => {
+    const newState = !get().isVisible;
+    console.log("Toggling offcanvas:", newState);
+    set({ isVisible: newState });
+  },
+  setIsVisible: (value) => {
+    console.log("Setting offcanvas visibility:", value);
+    set({ isVisible: Boolean(value) });
+  },
+  forceClose: () => {
+    console.log("Forzando cierre del offcanvas");
+    set({ isVisible: false });
+    document.body.classList.remove("overflow-hidden");
+    // Limpiar cualquier otro estado que pueda interferir
+    document.body.style.overflow = "visible";
+  },
 }));
 
 export default useOffcanvasStore;
