@@ -14,10 +14,13 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("DefaultPolicy", policy =>
     {
-        policy.WithOrigins("http://localhost:5173") // URL de tu aplicación React
-              .AllowAnyMethod()
-              .AllowAnyHeader()
-              .WithExposedHeaders("Content-Disposition");
+        policy.WithOrigins(
+                "http://localhost:3000",  // React default port
+                "http://localhost:5173"   // Vite default port
+            )
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .WithExposedHeaders("Content-Disposition");
     });
 });
 
@@ -74,9 +77,11 @@ app.UseStaticFiles(new StaticFileOptions
     RequestPath = "/images"
 });
 
-app.UseRouting();
-app.UseCors("DefaultPolicy");
-app.UseAuthorization();
+app.UseRouting(); // Primero UseRouting
+
+app.UseCors("DefaultPolicy"); // Después UseCors
+
+app.UseAuthorization(); // Luego UseAuthorization
 
 app.MapControllers();
 

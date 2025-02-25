@@ -11,7 +11,7 @@ namespace BackendTienda.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [EnableCors("AllowAll")]
+    [EnableCors("DefaultPolicy")]  // Cambiar "AllowAll" por "DefaultPolicy"
     public class ProductsController : ControllerBase
     {
         private readonly IProductoService _productoService;
@@ -81,16 +81,16 @@ namespace BackendTienda.Controllers
             }
         }
 
-        [HttpGet("image/{*imagePath}")]
+        [HttpGet("imagenes/{*imagePath}")]
         public IActionResult GetImage(string imagePath)
         {
-            // Asegurarse de que la ruta comience con "images"
-            if (!imagePath.StartsWith("images"))
+            // Asegurarse de que la ruta comience con "imagenes"
+            if (!imagePath.StartsWith("imagenes"))
             {
-                imagePath = Path.Combine("images", imagePath);
+                imagePath = Path.Combine("imagenes", imagePath);
             }
 
-            var fullPath = Path.Combine(_environment.ContentRootPath, "..", "server", "public", imagePath);
+            var fullPath = Path.Combine(_environment.WebRootPath, imagePath);
             Console.WriteLine($"Attempting to load image from: {fullPath}"); // Debug log
 
             if (!System.IO.File.Exists(fullPath))
@@ -106,17 +106,21 @@ namespace BackendTienda.Controllers
         [HttpGet("test")]  // Cambiar la ruta para evitar conflicto con {id}
         public IActionResult TestImagePath()
         {
-            var basePath = Path.Combine(_environment.ContentRootPath, "..", "server", "public");
+            var basePath = Path.Combine(_environment.WebRootPath, "imagenes");
             var testPaths = new[]
             {
-                Path.Combine(basePath, "images", "xiaomi"),
-                Path.Combine(basePath, "images", "consoles")  // Agregamos la ruta de consoles
+                Path.Combine(basePath, "consolas"),
+                Path.Combine(basePath, "iphone"),
+                Path.Combine(basePath, "motorola"),
+                Path.Combine(basePath, "parlantes"),
+                Path.Combine(basePath, "samsung"),
+                Path.Combine(basePath, "xiaomi")
             };
             
             var result = new {
                 BasePathExists = Directory.Exists(basePath),
                 BasePath = basePath,
-                ImagesPathExists = Directory.Exists(Path.Combine(basePath, "images")),
+                ImagesPathExists = Directory.Exists(basePath),
                 Directories = testPaths.Select(path => new {
                     Path = path,
                     Exists = Directory.Exists(path),

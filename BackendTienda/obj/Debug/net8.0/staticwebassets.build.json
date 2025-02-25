@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DWTk+EPNvq4HrpAZlsLwpCWBfV76MsobcsvqKjrhmWk=",
+  "Hash": "ohFmgNHgxWE+oJvPYilh2elFE4GrGcHeV55fipVx//c=",
   "Source": "BackendTienda",
   "BasePath": "_content/BackendTienda",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\cap.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\cap.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/cap.png",
+      "RelativePath": "imagenes/cap.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\cap.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\cap.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\cap2.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\cap2.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/cap2.png",
+      "RelativePath": "imagenes/cap2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\cap2.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\cap2.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\cap3.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\cap3.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/cap3.png",
+      "RelativePath": "imagenes/cap3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,15 +147,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\cap3.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\cap3.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\consolas\\1.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\consolas\\1.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/consolas/1.png",
+      "RelativePath": "imagenes/consolas/1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,15 +166,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\consolas\\1.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\consolas\\1.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\consolas\\2.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\consolas\\2.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/consolas/2.png",
+      "RelativePath": "imagenes/consolas/2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,15 +185,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\consolas\\2.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\consolas\\2.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\consolas\\3.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\consolas\\3.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/consolas/3.png",
+      "RelativePath": "imagenes/consolas/3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,15 +204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\consolas\\3.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\consolas\\3.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\consolas\\4.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\consolas\\4.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/consolas/4.png",
+      "RelativePath": "imagenes/consolas/4.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -223,15 +223,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\consolas\\4.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\consolas\\4.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\consolas\\5.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\consolas\\5.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/consolas/5.png",
+      "RelativePath": "imagenes/consolas/5.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -242,15 +242,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\consolas\\5.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\consolas\\5.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\consolas\\6.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\consolas\\6.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/consolas/6.png",
+      "RelativePath": "imagenes/consolas/6.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -261,15 +261,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\consolas\\6.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\consolas\\6.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\consolas\\9.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\consolas\\9.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/consolas/9.png",
+      "RelativePath": "imagenes/consolas/9.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -280,15 +280,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\consolas\\9.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\consolas\\9.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\iphone\\1.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\iphone\\1.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/iphone/1.png",
+      "RelativePath": "imagenes/iphone/1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -299,15 +299,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\iphone\\1.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\iphone\\1.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\iphone\\2.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\iphone\\2.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/iphone/2.png",
+      "RelativePath": "imagenes/iphone/2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -318,15 +318,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\iphone\\2.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\iphone\\2.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\iphone\\3.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\iphone\\3.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/iphone/3.png",
+      "RelativePath": "imagenes/iphone/3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\iphone\\3.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\iphone\\3.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\iphone\\4.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\iphone\\4.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/iphone/4.png",
+      "RelativePath": "imagenes/iphone/4.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -356,15 +356,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\iphone\\4.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\iphone\\4.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\iphone\\5.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\iphone\\5.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/iphone/5.png",
+      "RelativePath": "imagenes/iphone/5.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -375,15 +375,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\iphone\\5.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\iphone\\5.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\motorola\\1.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\motorola\\1.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/motorola/1.png",
+      "RelativePath": "imagenes/motorola/1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -394,15 +394,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\motorola\\1.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\motorola\\1.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\motorola\\2.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\motorola\\2.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/motorola/2.png",
+      "RelativePath": "imagenes/motorola/2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -413,15 +413,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\motorola\\2.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\motorola\\2.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\motorola\\3.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\motorola\\3.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/motorola/3.png",
+      "RelativePath": "imagenes/motorola/3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -432,15 +432,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\motorola\\3.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\motorola\\3.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\motorola\\4.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\motorola\\4.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/motorola/4.png",
+      "RelativePath": "imagenes/motorola/4.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -451,15 +451,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\motorola\\4.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\motorola\\4.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\parlantes\\1.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\parlantes\\1.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/parlantes/1.png",
+      "RelativePath": "imagenes/parlantes/1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -470,15 +470,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\parlantes\\1.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\parlantes\\1.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\parlantes\\2.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\parlantes\\2.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/parlantes/2.png",
+      "RelativePath": "imagenes/parlantes/2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -489,15 +489,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\parlantes\\2.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\parlantes\\2.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\placeholder.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\placeholder.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/placeholder.png",
+      "RelativePath": "imagenes/placeholder.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -508,15 +508,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\placeholder.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\placeholder.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\samsung\\1.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\samsung\\1.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/samsung/1.png",
+      "RelativePath": "imagenes/samsung/1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -527,15 +527,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\samsung\\1.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\samsung\\1.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\samsung\\2.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\samsung\\2.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/samsung/2.png",
+      "RelativePath": "imagenes/samsung/2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -546,15 +546,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\samsung\\2.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\samsung\\2.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\samsung\\3.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\samsung\\3.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/samsung/3.png",
+      "RelativePath": "imagenes/samsung/3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -565,15 +565,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\samsung\\3.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\samsung\\3.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\samsung\\4.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\samsung\\4.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/samsung/4.png",
+      "RelativePath": "imagenes/samsung/4.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -584,15 +584,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\samsung\\4.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\samsung\\4.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\samsung\\5.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\samsung\\5.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/samsung/5.png",
+      "RelativePath": "imagenes/samsung/5.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -603,15 +603,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\samsung\\5.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\samsung\\5.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\1.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\xiaomi\\1.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/xiaomi/1.png",
+      "RelativePath": "imagenes/xiaomi/1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -622,15 +622,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\xiaomi\\1.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\xiaomi\\1.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\2.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\xiaomi\\2.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/xiaomi/2.png",
+      "RelativePath": "imagenes/xiaomi/2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -641,15 +641,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\xiaomi\\2.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\xiaomi\\2.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\3.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\xiaomi\\3.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/xiaomi/3.png",
+      "RelativePath": "imagenes/xiaomi/3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -660,15 +660,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\xiaomi\\3.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\xiaomi\\3.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\4.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\xiaomi\\4.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/xiaomi/4.png",
+      "RelativePath": "imagenes/xiaomi/4.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -679,15 +679,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\xiaomi\\4.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\xiaomi\\4.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\5.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\xiaomi\\5.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/xiaomi/5.png",
+      "RelativePath": "imagenes/xiaomi/5.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -698,15 +698,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\xiaomi\\5.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\xiaomi\\5.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\6.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\xiaomi\\6.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/xiaomi/6.png",
+      "RelativePath": "imagenes/xiaomi/6.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -717,15 +717,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\xiaomi\\6.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\xiaomi\\6.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\7.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\xiaomi\\7.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/xiaomi/7.png",
+      "RelativePath": "imagenes/xiaomi/7.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -736,15 +736,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\xiaomi\\7.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\xiaomi\\7.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\8.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\xiaomi\\8.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/xiaomi/8.png",
+      "RelativePath": "imagenes/xiaomi/8.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -755,15 +755,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\xiaomi\\8.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\xiaomi\\8.png"
     },
     {
-      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\images\\xiaomi\\9.png",
+      "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\imagenes\\xiaomi\\9.png",
       "SourceId": "BackendTienda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\",
       "BasePath": "_content/BackendTienda",
-      "RelativePath": "images/xiaomi/9.png",
+      "RelativePath": "imagenes/xiaomi/9.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -774,7 +774,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\xiaomi\\9.png"
+      "OriginalItemSpec": "wwwroot\\imagenes\\xiaomi\\9.png"
     },
     {
       "Identity": "D:\\CursorExe\\Front\\BackendTienda\\wwwroot\\js\\site.js",
